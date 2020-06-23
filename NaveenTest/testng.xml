@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite	">
+  <test name="Test">
+   <parameter name = "url" value = "http://adactinhotelapp.com/index.php"></parameter>
+  <parameter name = "username" value = "selvimanoj@gmail.com"></parameter>
+   <parameter name = "password" value = "selvi"></parameter>
+   
+    <classes>
+      <class name="TestClass.Gmail"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

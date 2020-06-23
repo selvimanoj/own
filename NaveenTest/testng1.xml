@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestClass.BasicTest"/>
+      <class name="TestClass.DataProvider"/>
+      <class name="adactin.com.adactin.AppTest"/>
+      <class name="TestClass.ExcelData"/>
+      <class name="TestClass.AmazonPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
